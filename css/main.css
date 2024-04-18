@@ -1,0 +1,1208 @@
+  /* CSS RESET */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* stops text selection */
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE/Edge */
+    user-select: none;
+}
+
+  /* stop browser outline from displaying on button clicks */
+*:active {
+    outline: 0;
+}
+  /* GENERAL STYLES */
+html,body {
+    /* stop page from scrolling */
+    height: 100%;
+    overflow: hidden;
+    font-family: "Arial", sans-serif;
+}
+
+div,main,section,img {
+    position: absolute;
+}
+
+main {
+    display: none;
+}
+
+#loading,#begin,
+main {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#loading {
+    width: 100px;
+    height: auto;
+}
+
+#btnContainer {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+#begin {
+    display: inline-block;
+    background-color: #0239a1;
+    color: #fff;
+    border: solid 1px transparent;
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: all 0.5s;
+}
+
+#begin:hover {
+    cursor: pointer;
+    background-color: #a2dcf8;
+    color: #0239a1;
+    border: solid 1px #0239a1;
+}
+
+main {
+    width: 960px;
+    height: 600px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #a2dcf8;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 600px;
+}
+
+#next, #prev {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    bottom: 20px;
+    color: #fff;
+    border: solid 1px #fff;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    font-size: 20px;
+    font-weight: bold;
+    transition: background 0.5s;
+}
+
+#next {
+    border: 20px solid #0239a1;
+    left: 20px;
+    padding-left: 2px;
+    z-index: 10;
+}
+
+#prev {
+    top: 30px;
+    left: 20px;
+    z-index: 10;
+}
+#next:hover,#prev:hover {
+    cursor: pointer;
+    color: #000;
+    background: rgba(255, 255, 255, 1);
+}
+
+#nav{
+  height: 234px;
+  position: absolute;
+  top: 184px;
+  left: 36px;
+  z-index: 3000;
+}
+#navBtn1{
+  height: 16px;
+  position: absolute;
+  top: 192px;
+  left: 41px;
+  z-index: 3000;
+}
+#navBtn2{
+  height: 16px;
+  position: absolute;
+  top: 232px;
+  left: 41px;
+  z-index: 3000;
+}
+#navBtn3{
+  height: 16px;
+  position: absolute;
+  top: 273px;
+  left: 41px;
+  z-index: 3000;
+}
+#navBtn4{
+  height: 16px;
+  position: absolute;
+  top: 313px;
+  left: 41px;
+  z-index: 3000;
+}
+#navBtn5{
+  height: 16px;
+  position: absolute;
+  top: 353px;
+  left: 41px;
+  z-index: 3000;
+}
+#navBtn6{
+  height: 16px;
+  position: absolute;
+  top: 393px;
+  left: 41px;
+  z-index: 3000;
+}
+  /* SHARED SCREEN STYLES */
+  /* for demo only */
+h1 {
+    position: absolute;
+}
+
+
+  /* SCREEN 1 STYLES */
+#screen1 {
+    background: url(../img/bg1.svg);
+}
+
+  /* SCREEN 2 STYLES */
+#screen2 {
+    background: url(../img/bg2-02.svg);
+    z-index: 5;
+}
+
+  /* SCREEN 3 STYLES */
+#screen3 {
+    background: url(../img/bg1.svg);
+    z-index: 4;
+}
+
+  /* SCREEN 4 STYLES */
+#screen4 {
+    background: url(../img/bg3-04.svg);
+    z-index: 3;
+}
+
+  /* SCREEN 5 STYLES */
+#screen5 {
+    background: url(../img/bg1.svg);
+    z-index: 0;
+}
+
+ /* SCREEN 6 STYLES */
+ #screen6 {
+    background: url(../img/bg4-06.svg);
+    z-index: 0;
+}
+
+
+
+  /* for modals... can be used anywhere
+.overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 2000;
+    display: none;
+}
+
+.close {
+    color: #fff;
+    top: 10px;
+    right: 10px;
+}
+
+.overlayContent {
+    color: #fff;
+    top: 0;
+    text-align: center;
+} */
+
+
+#plane1{
+    top: 113px;
+    left: 70px;
+}
+
+
+.passport{
+    width: 216px;
+    height: 289px;
+    position: absolute;
+    z-index: 4;
+}
+.pass{
+    z-index: 3;
+    width: 411px;
+    transform: rotate(-80deg);
+    position: absolute;
+}
+.passport:hover, .pass:hover{
+  scale: 1.08;
+  cursor: pointer;
+}
+#pass1{
+  top: 250px;
+  left: 25px;
+}
+#pass2{
+  left: 300px;
+  top: 230px;
+}
+#pass3{
+  top: 250px;
+  left: 570px;
+}
+#pass4{
+    top: 261px;
+    left: 111px;
+}
+#pass5{
+    top: 232px;
+    left: 381px;
+}
+
+#pass6{
+  top: 261px;
+  left: 652px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 960px;
+    height: 600px;
+    text-align: center;
+}
+.column h2{
+    width: 200px;
+    height: 77px;
+    margin-left: 132px;
+    margin-top: 5px;
+    color: #0239a1;
+}
+
+
+.graph{
+    width: 417px;
+    top: 235px;
+    left: 433px;
+}
+
+#part1{
+  position: absolute;
+  width: 377px;
+  top: 31px;
+  left: 64px;
+  transition: scale 0.3 ease-in-out;
+}
+#part2{
+  position: absolute;
+  width: 190px;
+  top: 109px;
+  left: 432px;
+  transition: scale 0.3 ease-in-out;
+}
+#part3{
+  position: absolute;
+  width: 130px;
+  top: 109px;
+  left: 607px;
+  transition: scale 0.3 ease-in-out;
+}
+#part4{
+  position: absolute;
+  width: 92px;
+  top: 109px;
+  left: 726px;
+  transition: scale 0.3 ease-in-out;
+}
+#part5{
+  position: absolute;
+  width: 40px;
+  top: 122px;
+  left: 809px;
+  transition: scale 0.3 ease-in-out;
+}
+
+#part1:hover, #part2:hover, #part3:hover, #part4:hover, #part5:hover{
+  scale: 1.1;
+}
+
+#comp{
+  opacity: 0;
+  position: absolute;
+  width: 285px;
+  top: 70px;
+  left: 204px;
+}
+#al{
+  opacity: 0;
+  position: absolute;
+  width: 220px;
+  top: 187px;
+  left: 242px;
+}
+#ti{
+  opacity: 0;
+  position: absolute;
+  width: 199px;
+  top: 177px;
+  left: 438px;
+}
+#steel{
+  opacity: 0;
+  position: absolute;
+  width: 152px;
+  top: 167px;
+  left: 649px;
+}
+#other{
+  opacity: 0;
+  position: absolute;
+  width: 144px;
+  top: 162px;
+  left: 699px;
+}
+ 
+.window{
+    width: 172px;
+    top: 293px;
+    left: 130px;
+}
+
+.people{
+    width: 283px;
+    top: 356px;
+    left: 578px;
+    opacity: 0;
+}
+.people2{
+  width: 373px;
+    top: 316px;
+    left: 542px;
+}
+.circle1{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 170px;
+  background-color: #0b97d7;
+  border-radius: 50%;
+  top: 305px;
+  left: 327px;
+
+}
+.circular-pbar{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  position: absolute;
+  --p: 0;
+  background: conic-gradient(#a2dcf8 var(--p, 0), 0, #0b97d7)
+
+}
+.overlay{
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background-color: #a2dcf8;
+  border-radius: 50%;
+  z-index: 5;
+  border: 5px solid #0b97d7;
+}
+#large{
+  position: absolute;
+  width: 182px;
+  top: 480px;
+  left: 321px;
+  opacity: 0;
+}
+
+
+
+#graphText1{
+  font-size: 45px;
+  color: #0239a1;
+  position: absolute;
+  left: 369px;
+  top: 363px;
+  z-index: 6;
+}
+#percent{
+  font-size: 45px;
+  color: #0239a1;
+  position: absolute;
+  left: 420px;
+  top: 363px;
+  z-index: 6;
+}
+
+.circle2{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 170px;
+  background-color: #0b97d7;
+  border-radius: 50%;
+  top: 57px;
+  left: 155px;
+
+}
+.circular-pbar2{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  position: absolute;
+  --p: 0;
+  background: conic-gradient(#a2dcf8 var(--p, 0), 0, #0b97d7)
+
+}
+.overlay2{
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background-color: #a2dcf8;
+  border-radius: 50%;
+  z-index: 5;
+  border: 5px solid #0b97d7;
+}
+
+#graphText2{
+  font-size: 45px;
+  color: #0239a1;
+  position: absolute;
+  left: 198px;
+  top: 117px;
+  z-index: 6;
+}
+#percent2{
+  font-size: 45px;
+  color: #0239a1;
+  position: absolute;
+  left: 245px;
+  top: 117px;
+  z-index: 6;
+}
+
+.circle3{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 170px;
+  background-color: #0b97d7;
+  border-radius: 50%;
+  top: 304px;
+  left: 155px;
+
+}
+.circular-pbar3{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  position: absolute;
+  --p: 0;
+  background: conic-gradient(#a2dcf8 var(--p, 0), 0, #0b97d7)
+
+}
+.overlay3{
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background-color: #a2dcf8;
+  border-radius: 50%;
+  z-index: 5;
+  border: 5px solid #0b97d7;
+}
+
+#graphText3{
+  font-size: 45px;
+  color: #0239a1;
+  position: absolute;
+  left: 198px;
+  top: 363px;
+  z-index: 6;
+  margin: 0;
+}
+#percent3{
+  font-size: 45px;
+  color: #0239a1;
+  position: absolute;
+  left: 245px;
+  top: 363px;
+  z-index: 6;
+  margin: 0;
+}
+
+#reduce{
+  position: absolute;
+  top: 240px;
+  left: 138px;
+  width: 201px;
+  margin: 0;
+}
+
+#more{
+  position: absolute;
+  top: 492px;
+  left: 135px;
+  width: 200px;
+  margin: 0;
+}
+
+#new{
+  position: absolute;
+  width: 375px;
+  top: 146px;
+  left: 460px;
+}
+
+#planeSmall{
+    position: absolute;
+    width: 87px;
+    height: auto;
+    top: -95px;
+    left: 177px;
+    z-index: 5;
+}
+
+.svg{
+    width: 700px;
+    height: 626px;
+    left: 195px;
+    top: 0px;
+}
+.cls-1 {
+    fill: none;
+    stroke: #0a1e3f;
+    stroke-miterlimit: 10;
+    stroke-width: 0px;
+    width: 630px;
+    margin-left: 177px;
+}
+
+#Btn{
+    position: absolute;
+    width: 26px;
+    z-index: 9000;
+    top: 137px;
+    left: 212px;
+}
+
+#Btn2{
+    position: absolute;
+    width: 26px;
+    z-index: 9000;
+    top: 383px;
+    left: 212px;
+}
+#Btn3{
+    position: absolute;
+    width: 26px;
+    z-index: 9000;
+    top: 515px;
+    left: 371px;
+}
+
+#Btn4{
+    position: absolute;
+    width: 26px;
+    z-index: 9000;
+    top: 382px;
+    left: 519px;
+}
+
+#Btn5{
+    position: absolute;
+    width: 26px;
+    z-index: 9000;
+    top: 142px;
+    left: 562px;
+}
+
+#Btn6{
+    position: absolute;
+    width: 26px;
+    z-index: 9000;
+    top: 131px;
+    left: 791px;
+}
+
+#Btn7{
+    position: absolute;
+    width: 26px;
+    z-index: 9000;
+    top: 460px;
+    left: 843px;
+}
+
+#Btn8{
+  position: absolute;
+  width: 18px;
+  z-index: 1000;
+  top: 198px;
+  left: 242px;
+}
+
+#Btn9{
+  position: absolute;
+  width: 18px;
+  z-index: 1000;
+  top: 246px;
+  left: 242px;
+}
+
+#Btn10{
+  position: absolute;
+  width: 18px;
+  z-index: 1000;
+  top: 154px;
+  left: 499px;
+}
+
+#Btn11{
+  position: absolute;
+  width: 18px;
+  z-index: 1000;
+  top: 185px;
+  left: 457px;
+}
+
+#Btn12{
+  position: absolute;
+  width: 18px;
+  z-index: 1000;
+  top: 210px;
+  left: 473px;
+}
+
+#Btn13{
+  position: absolute;
+  width: 18px;
+  z-index: 1000;
+  top: 229px;
+  left: 499px;
+}
+
+#Btn14{
+  position: absolute;
+  width: 18px;
+  z-index: 10000;
+  top: 235px;
+  left: 794px;
+}
+
+#Btn15{
+  position: absolute;
+  width: 18px;
+  z-index: 1000;
+  top: 252px;
+  left: 817px;
+}
+
+#Btn16{
+  position: absolute;
+  width: 18px;
+  z-index: 1000;
+  top: 462px;
+  left: 865px;
+}
+
+#Btn:hover, #Btn2:hover, #Btn3:hover, #Btn4:hover, #Btn5:hover, #Btn6:hover, #Btn7:hover, #Btn8:hover, #Btn9:hover,
+#Btn10:hover, #Btn11:hover,#Btn12:hover,#Btn13:hover,#Btn14:hover,#Btn15:hover,#Btn16:hover{
+    transform: scale(1.5);
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: absolute; 
+    z-index: 10; /* Sit on top */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+  }
+  
+  #modal-content1 img{
+    position: absolute;
+    width: 254px;
+    height: auto;
+    top: 143px;
+    left: 247px;
+  }
+  /* The Close Button */
+  .close1{
+    color: #aaa;
+    position: absolute;
+    font-size: 28px;
+    font-weight: bold;
+    z-index: 11;
+    left: 475px;
+    top: 155px;
+  }
+  
+  .close1:hover,
+  .close1:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+
+  /* Second modal */
+
+  #modal-content2 img{
+    position: absolute;
+    width: 254px;
+    height: auto;
+    top: 382px;
+    left: 247px;
+  }
+  /* The Close Button */
+  .close2{
+    color: #aaa;
+    position: absolute;
+    font-size: 28px;
+    font-weight: bold;
+    z-index: 11;
+    left: 475px;
+    top: 385px;
+  }
+  
+  .close2:hover,
+  .close2:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+    /* Third */
+
+    #modal-content3 img{
+        position: absolute;
+        width: 254px;
+        height: auto;
+        top: 360px;
+        left: 250px;
+      }
+      /* The Close Button */
+      .close3{
+        color: #aaa;
+        position: absolute;
+        font-size: 28px;
+        font-weight: bold;
+        z-index: 11;
+        left: 480px;
+        top: 363px;
+      }
+      
+      .close3:hover,
+      .close3:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+ /* fourth */
+
+ #modal-content4 img{
+    position: absolute;
+    width: 254px;
+    height: auto;
+    top: 360px;
+    left: 250px;
+  }
+  /* The Close Button */
+  .close4{
+    color: #aaa;
+    position: absolute;
+    font-size: 28px;
+    font-weight: bold;
+    z-index: 11;
+    left: 480px;
+    top: 363px;
+  }
+  
+  .close4:hover,
+  .close4:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+ /* fifth */
+
+ #modal-content5 img{
+    position: absolute;
+    width: 254px;
+    height: auto;
+    top: 139px;
+    left: 270px;
+  }
+  /* The Close Button */
+  .close5{
+    color: #aaa;
+    position: absolute;
+    font-size: 28px;
+    font-weight: bold;
+    z-index: 11;
+    left: 490px;
+    top: 143px;
+  }
+  
+  .close5:hover,
+  .close5:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+ /* sixth */
+
+ #modal-content6 img{
+    position: absolute;
+    width: 254px;
+    height: auto;
+    top: 174px;
+    left: 568px;
+  }
+  /* The Close Button */
+  .close6{
+    color: #aaa;
+    position: absolute;
+    font-size: 28px;
+    font-weight: bold;
+    z-index: 11;
+    left: 798px;
+    top: 175px;
+  }
+  
+  .close6:hover,
+  .close6:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+  /* seventh */
+
+ #modal-content7 img{
+  position: absolute;
+  width: 254px;
+  height: auto;
+  top: 461px;
+  left: 584px;
+}
+/* The Close Button */
+.close7{
+  color: #aaa;
+  position: absolute;
+  font-size: 28px;
+  font-weight: bold;
+  z-index: 11;
+  left: 807px;
+  top: 540px;
+}
+
+.close7:hover,
+.close7:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Eigth */
+#modal-content8 img{
+  position: absolute;
+  width: 254px;
+  height: auto;
+  top: 200px;
+  left: 270px;
+  z-index: 11000;
+}
+/* The Close Button */
+.close8{
+  color: #aaa;
+  position: absolute;
+  font-size: 28px;
+  font-weight: bold;
+  z-index: 11001;
+  left: 495px;
+  top: 243px;
+}
+
+.close8:hover,
+.close8:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 9 */
+#modal-content9 img{
+  position: absolute;
+  width: 254px;
+  height: auto;
+  top: 255px;
+  left: 262px;
+  z-index: 11000;
+}
+/* The Close Button */
+.close9{
+  color: #aaa;
+  position: absolute;
+  font-size: 28px;
+  font-weight: bold;
+  z-index: 11001;
+  left: 472px;
+  top: 363px;
+}
+
+.close9:hover,
+.close9:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 10 */
+#modal-content10 img{
+  position: absolute;
+  width: 254px;
+  height: auto;
+  top: 159px;
+  left: 256px;
+  z-index: 11000;
+}
+/* The Close Button */
+.close10{
+  color: #aaa;
+  position: absolute;
+  font-size: 28px;
+  font-weight: bold;
+  z-index: 11001;
+  left: 403px;
+  top: 192px;
+}
+
+.close10:hover,
+.close10:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 12 */
+#modal-content12 img{
+  position: absolute;
+  width: 254px;
+  height: auto;
+  top: 214px;
+  left: 237px;
+  z-index: 11000;
+}
+/* The Close Button */
+.close12{
+  color: #aaa;
+  position: absolute;
+  font-size: 28px;
+  font-weight: bold;
+  z-index: 11001;
+  left: 391px;
+  top: 243px;
+}
+
+.close12:hover,
+.close12:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 11 */
+#modal-content11 img{
+  position: absolute;
+  width: 254px;
+  height: auto;
+  top: 189px;
+  left: 200px;
+  z-index: 11000;
+}
+/* The Close Button */
+.close11{
+  color: #aaa;
+  position: absolute;
+  font-size: 28px;
+  font-weight: bold;
+  z-index: 11001;
+  left: 348px;
+  top: 220px;
+}
+
+.close11:hover,
+.close11:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 13 */
+#modal-content13 img{
+  position: absolute;
+  width: 254px;
+  height: auto;
+  top: 230px;
+  left: 525px;
+  z-index: 11000;
+}
+/* The Close Button */
+.close13{
+  color: #aaa;
+  position: absolute;
+  font-size: 28px;
+  font-weight: bold;
+  z-index: 11001;
+  left: 730px;
+  top: 275px;
+}
+
+.close13:hover,
+.close13:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 14 */
+#modal-content14 img{
+  position: absolute;
+  width: 254px;
+  height: auto;
+  top: 242px;
+  left: 557px;
+  z-index: 11000;
+}
+/* The Close Button */
+.close14{
+  color: #aaa;
+  position: absolute;
+  font-size: 28px;
+  font-weight: bold;
+  z-index: 11001;
+  left: 694px;
+  top: 275px;
+}
+
+.close14:hover,
+.close14:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 15 */
+#modal-content15 img{
+  position: absolute;
+  width: 254px;
+  height: auto;
+  top: 255px;
+  left: 590px;
+  z-index: 11000;
+}
+/* The Close Button */
+.close15{
+  color: #aaa;
+  position: absolute;
+  font-size: 28px;
+  font-weight: bold;
+  z-index: 11001;
+  left: 731px;
+  top: 353px;
+}
+
+.close15:hover,
+.close15:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 16 */
+#modal-content16 img{
+  position: absolute;
+  width: 254px;
+  height: auto;
+  top: 468px;
+  left: 629px;
+  z-index: 11000;
+}
+/* The Close Button */
+.close16{
+  color: #aaa;
+  position: absolute;
+  font-size: 28px;
+  font-weight: bold;
+  z-index: 11001;
+  left: 779px;
+  top: 494px;
+}
+
+.close16:hover,
+.close16:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+.graphInt{
+    position: absolute;
+    width: 126px;
+    height: 140px;
+    top: 319px;
+    left: 362px;
+}
+  .cls-2 {
+    fill: none;
+    stroke: #a2dcf8;
+    stroke-miterlimit: 10;
+    stroke-width: 16.25px;
+}
+
+.pass{
+  z-index: 0;
+}
