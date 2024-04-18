@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 57.04 57.04">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 4.46px;
+      }
+    </style>
+  </defs>
+  <g id="Timeline">
+    <g>
+      <circle class="cls-1" cx="28.52" cy="28.52" r="19.84"/>
+      <circle class="cls-2" cx="28.52" cy="28.52" r="26.29"/>
+    </g>
+  </g>
+</svg>

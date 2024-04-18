@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 174.26 238.61">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+        stroke: #cbd0d5;
+        stroke-width: 1.87px;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        fill: #000;
+        font-family: AvenirNext-Medium, 'Avenir Next';
+        font-size: 12px;
+        font-weight: 500;
+      }
+
+      .cls-4 {
+        fill: #2252ad;
+      }
+
+      .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: url(#radial-gradient);
+        stroke: #95adbb;
+        stroke-width: 2.8px;
+      }
+
+      .cls-5 {
+        fill: #0239a1;
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="105.39" cy="119.31" fx="105.39" fy="119.31" r="62.7" gradientTransform="translate(0 -99.55) scale(1 1.83)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#eef2f8"/>
+      <stop offset=".63" stop-color="#ecf0f7"/>
+      <stop offset=".86" stop-color="#e5ebf5"/>
+      <stop offset="1" stop-color="#dce5f2"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient" x1="106.38" y1="57.4" x2="104.73" y2="169.85" gradientUnits="userSpaceOnUse">
+      <stop offset=".11" stop-color="#c8def3"/>
+      <stop offset=".21" stop-color="#c2dbf2"/>
+      <stop offset=".34" stop-color="#b2d6ef"/>
+      <stop offset=".49" stop-color="#99ccec"/>
+      <stop offset=".65" stop-color="#75bee6"/>
+      <stop offset=".82" stop-color="#47addf"/>
+      <stop offset=".99" stop-color="#0f98d7"/>
+      <stop offset="1" stop-color="#0b97d7"/>
+    </linearGradient>
+  </defs>
+  <g id="Design">
+    <g>
+      <text class="cls-3" transform="translate(0 124.81)"><tspan x="0" y="0">47cm</tspan></text>
+      <g>
+        <g id="Window">
+          <rect class="cls-2" x="37.92" y="1.4" width="134.93" height="235.81" rx="60.42" ry="60.42"/>
+          <rect class="cls-1" x="67.12" y="51.07" width="76.77" height="131.8" rx="36.34" ry="36.34"/>
+        </g>
+        <rect class="cls-5" x="52.48" y="51.07" width="1.62" height="131.8"/>
+        <rect class="cls-5" x="70.67" y="196.43" width="73.7" height="1.42"/>
+        <polygon class="cls-4" points="135.41 202.02 137.49 197.14 135.41 192.25 146.99 197.14 135.41 202.02"/>
+        <polygon class="cls-4" points="73.82 192.25 71.74 197.14 73.82 202.02 62.24 197.14 73.82 192.25"/>
+        <polygon class="cls-4" points="48.18 180.44 53.07 182.52 57.95 180.44 53.07 192.02 48.18 180.44"/>
+        <polygon class="cls-4" points="58.18 54.63 53.29 52.56 48.41 54.63 53.29 43.06 58.18 54.63"/>
+      </g>
+      <text class="cls-3" transform="translate(89.31 217.94)"><tspan x="0" y="0">28cm</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 585.42 81.51">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0239a1;
+        font-family: AnfaceRegular, Anface;
+        font-size: 84.68px;
+        letter-spacing: .1em;
+      }
+    </style>
+  </defs>
+  <g id="Title">
+    <text class="cls-1" transform="translate(24.6 61.92) scale(.91 .85) skewX(-30.04)"><tspan x="0" y="0">BOEING 787</tspan></text>
+  </g>
+</svg>

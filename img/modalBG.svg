@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 253.07 84.23">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #86b6ee;
+        stroke-miterlimit: 10;
+        stroke-width: 3.06px;
+      }
+    </style>
+  </defs>
+  <g id="Timeline">
+    <rect class="cls-1" x="1.53" y="1.53" width="250" height="81.17" rx="11" ry="11"/>
+  </g>
+</svg>
